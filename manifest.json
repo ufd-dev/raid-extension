@@ -2,14 +2,15 @@
   "manifest_version": 3,
   "name": "UFD Raiding",
   "version": "1.0.0",
+  "host_permissions": ["<all_urls>"],
   "icons": {
-    "128": "icon128.png"
+    "128": "public/icon128.png"
   },
   "permissions": ["sidePanel"],
   "background": {
-    "service_worker": "src/service-worker.js"
+    "service_worker": "src/background.ts"
   },
   "side_panel": {
-    "default_path": "src/sidepanel.html"
+    "default_path": "src/sidepanel/index.html"
   }
 }
