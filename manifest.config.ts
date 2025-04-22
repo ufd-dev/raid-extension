@@ -23,7 +23,7 @@ export default defineManifest(async (env) => {
     icons: {
       "128": "public/icon128.png",
     },
-    permissions: ["sidePanel"],
+    permissions: ["clipboardWrite", "sidePanel"],
     background: {
       service_worker: "src/background.ts",
     },

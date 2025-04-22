@@ -1,4 +1,35 @@
 body {
+  background-color: #121212; /* 1e for paper */
+  color: #e1e1e1; /* 7e for heading */
   font-family: sans-serif;
   font-size: 16px;
+}
+
+a {
+  color: #e1e1e1;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 12px;
+}
+
+.copy-anchor {
+  filter: invert(0.5) sepia(1) hue-rotate(300deg) saturate(2.5);
+  margin-right: 4px;
+}
+.copy-anchor:hover {
+  text-decoration: none;
+  filter: invert(0.7) sepia(1) hue-rotate(300deg) saturate(2.5);
+}
+.copy-anchor:active {
+  filter: invert(0.9) sepia(1) hue-rotate(300deg) saturate(2.5);
+}
+
+.copy-icon {
+  height: 1rem;
 }
