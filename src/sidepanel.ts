@@ -9,7 +9,7 @@ const createLinkLi = (link: Link) => /* html */ `
       href="#"
       data-href="${link.href}"
     >
-      <img class="copy-icon" src="img/copy.svg" />
+      <img class="copy-icon" src="/copy.svg" />
     </a>
     <a href="${link.href}" target="_blank">${link.text}</a>
   </li>
